@@ -1,40 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="header">
-      <h1><11문 11답></h1>
-    </div>
-    <div id="main">
-      Q1. 자기 이름 앞에, 자신이 듣고 싶은 꾸미는 말을 써서 자신을 소개해
-      주세요. : 안녕하세요 안제현입니다. <br />
-      Q2. 가장 좋아하는 영화는? : 패왕별희. <br />
-      Q3. 가장 좋아하는 음식은 무엇인가요? : 샤브샤브(등촌식(미나리많은)) <br />
-      Q4. 나의 장점은? : 어떤 상황에서도 긍정적인 면을 찾으려는 점<br />
-      Q5. 취미와 특기는 무엇인가요? : 취미:맛집탐방, 특기 : 손재주(십자수,
-      뜨개질, 타이핑(키보드(800타)))<br />
-      Q6. 나의 최애템(가장 소중한 물건)은? : 컴퓨터<br />
-      Q7. 나의 주량은?! : 시간 당 소주 1병(맥주나 막걸리는 잘 못마심)<br />
-      Q8. 지금 가장 가고 싶은 여행지는? : 일본(원숭이가 있는 온천)<br />
-      Q9. 10년 뒤 이루고 싶은 꿈이 있다면 무엇인가요?​ :공부하기를 멈추지 않은
-      사람이 되고싶습니다.<br />
-      Q10. 다섯글자로 나를 표현한다면?(이유 포함) : 안물어봤어 (옆에서 뭐가
-      안된다, 모르겠다 라는 소리가 들려오면 상대가 먼저 안물어봐도 알려주고
-      싶어해서 별명이 안물박사임)<br />
-      Q11. 우리FISA 1기 동기들에게 한마디! : 우리 모두 회사에게, 동기에게,
-      스스로에게 당당할 수 있도록 하루하루 충실히 보내면 좋겠습니다. 남은기간
-      화이팅해서 모두 좋은 결과 얻어가면 좋겠어요. 우리피사로 사행시 우:우린
-      리:할수있다. 피:. 사:. .음성 도메인에서 딥러닝 기반 voice conversion과
-      음성 합성(어쿠스틱 모델), multi modal(nlp) 프로젝트 경험이 3회 있습니다.
-      딥러닝 관련 프로젝트나 대회, 해커톤 등 데려가고싶으신분 부담없이 제의
-      주시면 감사하겠습니다! 💙나를 알아 볼 수 있는 가장 잘 나온 사진을 첨부해
-      주세요💙
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About 김연지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        /* The navigation bar */
+            .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+            }
+    </style>
+</head>
+<body>
+
+<!-- Header-->
+<div id="header" class="py-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container px-5">
+            <a class="navbar-brand">YEONJI KIM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#one">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#two">Developer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#three">Technical Editor</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Main-->
+<div id="main">
+
+    <div class="container px-5" id="one">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xxl-6">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder mb-3">Build things that build things!</h1>
+                    <p class="lead fw-normal text-muted mb-4">김연지입니다</p>
+                    <a class="btn btn-dark btn-lg" href="#scroll-target">WHO I AM</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="footer">@정해정 다음 자기소개 부탁드립니다</div>
-  </body>
+            <!-- About section one-->
+            <section class="py-5 bg-light about_me" id="scroll-target">
+                <div class="container px-5 my-5"  id="two">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="data/spongebob.jpg" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Programmer</h2>
+                            <p class="lead fw-normal text-muted mb-0">1000번 안 되다가 1번 될 때 느끼는 희열감과<br>
+                                내일은 되겠지, 라는 낙천성을 가진 개발자</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section two-->
+            <section class="py-5" id="three">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="data/profile.png" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Technical Editor</h2>
+                            <p class="lead fw-normal text-muted mb-0">국어국문학을 전공한 개발자의 눈으로<br> 잘 이해되는 설명과 잘 돌아가는 코드를 가진<br> 책을 세상에 선보이는 지식노동자</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+</div>
+
+<!-- Footer-->
+<div id="footer" class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; YEONJIKIM 2023</div></div>
+            <div class="col-auto">
+                <span class="text-white mx-1">atangi@naver.com</span>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="mailto:atangi@naver.com">Contact</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
 </html>
