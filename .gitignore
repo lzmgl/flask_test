@@ -1,0 +1,20 @@
+# 가상환경, 임시파일, API KEY 등.
+
+# dir/
+# filename
+# !filename : except this file (업로드 하라고 임마)
+
+# regex
+# *
+# ?
+
+# environment
+myvenv/
+myvenv.cmd
+
+#cache
+__pycache__/
+*/__pycache__/
+
+# database
+migrations/
