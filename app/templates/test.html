@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>endfor가 시작하는 지점</p>
+    {% for item in list %}
+    <p>순서: {{ loop.index}}</p>
+    <p>{{ item }}</p>
+    <p>endfor가 진행중임</p>
+    <hr />
+
+    {% if loop.last%} 종료 {% endif %} {% endfor %}
+    <p>endfor가 끝나는 지점</p>
+  </body>
+</html>

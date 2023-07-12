@@ -14,3 +14,13 @@ def post_list():
 def detail(question_id):
     question = Question.query.get(question_id)
     return render_template('question/question_detail.html', question=question)
+
+@fisa.route('/loop')
+def loop():
+    test = [1,2,3,4,5]
+    return render_template('test.html', list=test)
+
+
+@fisa.route('/')
+def index():
+    return render_template('index.html')
