@@ -15,6 +15,6 @@ myvenv.cmd
 #cache
 __pycache__/
 */__pycache__/
-
+*/static/
 # database
 migrations/
