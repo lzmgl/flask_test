@@ -1,0 +1,8 @@
+- .gitignore
+    - migrations 폴더 안에 있는 계속 바뀌는 테이블 변경사항들
+    - 가상환경 폴더
+    - 가상환경 freeze -> 설치
+    $ pip freeze > requirements.txt
+
+    # requirements.txt 에 있는 패키지 설치
+    $ pip install -r requirements.txt
